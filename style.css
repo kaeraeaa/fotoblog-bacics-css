@@ -4,21 +4,107 @@ a{
 
 ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+header {
+    padding: 71px 0px 92px 0;
+}
+
+
 
 body {
     font-family: 'Playfair Display',serif;
     font-style: normal;
-    font-weight: 400;
 
     color: #626262;
-
 }
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #626262;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #03A9F4;
+    
+}
+
+/* .container {
+    width: 928px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+ .style-images {
+    
+    color: #626262;
+
+} 
+
 .nav-list a {
-    
-    
     font-size: 14px;
     line-height: 19px;
     
     color: #7D7D7D;
 }
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #626262;
+}
+
+.button { 
+    text-align: center;
+
+    border: solid 1px #626262;
+
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin-top: 62px;
+    
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #626262;
+    
+    
+
+}
+
+
+ .nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nav-list .item:not(:first-child) {
+    margin-left: 100px;
+}
+
+ .main-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.main-list .item {
+    width: 472px;
+    
+}   
